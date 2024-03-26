@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container img {
+  max-width: 300px;
+  height: auto;
+}
+
+.info {
+  margin-top: 10px;
+  text-align: center;
+}
